@@ -1,11 +1,15 @@
 [debug] "not up to date. inChanged = true, force = false
 [debug] Updating ProjectRef(uri("file:/C:/Users/wangyuxin/Documents/GitHub/ITSD-Group/project/"), "itsd-group-build")...
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
 [warn] 
 [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
 [warn] 		com.typesafe.sbt:sbt-less:1.1.2 (sbtVersion=1.0, scalaVersion=2.12)
 [warn] 		com.typesafe.sbt:sbt-coffeescript:1.0.2 (sbtVersion=1.0, scalaVersion=2.12)
 [warn] 		com.typesafe.sbteclipse:sbteclipse-plugin:5.2.4 (sbtVersion=1.0, scalaVersion=2.12)
 [warn] 		com.typesafe.play:sbt-plugin:2.8.1 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		org.jetbrains.scala:sbt-structure-extractor:2022.3.1 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		org.jetbrains.scala:sbt-idea-shell:2021.1.0 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		org.jetbrains.scala:sbt-idea-compiler-indices:1.0.13 (sbtVersion=1.0, scalaVersion=2.12)
 [warn] 
 [warn] 	Note: Unresolved dependencies path:
 [error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.12:1.1.2
@@ -43,6 +47,13 @@
 [error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-sbt\sbt\1.3.4\ivys\ivy.xml
 [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
 [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-structure-extractor;sbtVersion=1.0;scalaVersion=2.12:2022.3.1
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-structure-extractor_2.12_1.0\2022.3.1\sbt-structure-extractor-2022.3.1.pom (expected SHA-1 78dfb0a24aff8f41c92cb43e5565d6e6f6cb6b95 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-structure-extractor_2.12_1.0\2022.3.1\.sbt-structure-extractor-2022.3.1.pom__sha1, got 4850763e6c263f54357d66d3b357b7f98d687c45)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.jetbrains.scala\sbt-structure-extractor\scala_2.12\sbt_1.0\2022.3.1\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2022.3.1/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2022.3.1/ivys/ivy.xml
 [error] Error downloading org.scala-lang:scala-library:2.12.10
 [error]   Not found
 [error]   Not found
@@ -50,6 +61,20 @@
 [error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-lang\scala-library\2.12.10\ivys\ivy.xml
 [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
 [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-shell;sbtVersion=1.0;scalaVersion=2.12:2021.1.0
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-shell_2.12_1.0\2021.1.0\sbt-idea-shell-2021.1.0.pom (expected SHA-1 c16bd7f98f931102b897d73b4e00939ec2671a81 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-shell_2.12_1.0\2021.1.0\.sbt-idea-shell-2021.1.0.pom__sha1, got 6d8cfcd89d54f326b10db718a43ed34be127ae42)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.jetbrains.scala\sbt-idea-shell\scala_2.12\sbt_1.0\2021.1.0\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-compiler-indices;sbtVersion=1.0;scalaVersion=2.12:1.0.13
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-compiler-indices_2.12_1.0\1.0.13\sbt-idea-compiler-indices-1.0.13.pom (expected SHA-1 e22c452bc421528c1c8bbb268a2ac5dc1760994b in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-compiler-indices_2.12_1.0\1.0.13\.sbt-idea-compiler-indices-1.0.13.pom__sha1, got 3060a62c26c2e74cc505ddede643e237d50e960e)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.jetbrains.scala\sbt-idea-compiler-indices\scala_2.12\sbt_1.0\1.0.13\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -75,11 +100,11 @@
 [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
 [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
 [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
 [error] (update) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.12:1.1.2
 [error]   Not found
 [error]   Not found
@@ -115,6 +140,13 @@
 [error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-sbt\sbt\1.3.4\ivys\ivy.xml
 [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
 [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-structure-extractor;sbtVersion=1.0;scalaVersion=2.12:2022.3.1
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-structure-extractor_2.12_1.0\2022.3.1\sbt-structure-extractor-2022.3.1.pom (expected SHA-1 78dfb0a24aff8f41c92cb43e5565d6e6f6cb6b95 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-structure-extractor_2.12_1.0\2022.3.1\.sbt-structure-extractor-2022.3.1.pom__sha1, got 4850763e6c263f54357d66d3b357b7f98d687c45)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.jetbrains.scala\sbt-structure-extractor\scala_2.12\sbt_1.0\2022.3.1\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2022.3.1/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2022.3.1/ivys/ivy.xml
 [error] Error downloading org.scala-lang:scala-library:2.12.10
 [error]   Not found
 [error]   Not found
@@ -122,3 +154,17 @@
 [error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-lang\scala-library\2.12.10\ivys\ivy.xml
 [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
 [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-shell;sbtVersion=1.0;scalaVersion=2.12:2021.1.0
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-shell_2.12_1.0\2021.1.0\sbt-idea-shell-2021.1.0.pom (expected SHA-1 c16bd7f98f931102b897d73b4e00939ec2671a81 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-shell_2.12_1.0\2021.1.0\.sbt-idea-shell-2021.1.0.pom__sha1, got 6d8cfcd89d54f326b10db718a43ed34be127ae42)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.jetbrains.scala\sbt-idea-shell\scala_2.12\sbt_1.0\2021.1.0\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-compiler-indices;sbtVersion=1.0;scalaVersion=2.12:1.0.13
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-compiler-indices_2.12_1.0\1.0.13\sbt-idea-compiler-indices-1.0.13.pom (expected SHA-1 e22c452bc421528c1c8bbb268a2ac5dc1760994b in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jetbrains\scala\sbt-idea-compiler-indices_2.12_1.0\1.0.13\.sbt-idea-compiler-indices-1.0.13.pom__sha1, got 3060a62c26c2e74cc505ddede643e237d50e960e)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.jetbrains.scala\sbt-idea-compiler-indices\scala_2.12\sbt_1.0\1.0.13\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
