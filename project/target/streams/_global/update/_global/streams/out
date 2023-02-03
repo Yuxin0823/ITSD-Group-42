@@ -1,5 +1,124 @@
 [debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/C:/Users/24956/Documents/GitHub/ITSD-Group-42/project/"), "itsd-group-42-build")...
-[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
-[debug] Done updating ProjectRef(uri("file:/C:/Users/24956/Documents/GitHub/ITSD-Group-42/project/"), "itsd-group-42-build")
-[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[debug] Updating ProjectRef(uri("file:/C:/Users/wangyuxin/Documents/GitHub/ITSD-Group/project/"), "itsd-group-build")...
+[warn] 
+[warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+[warn] 		com.typesafe.sbt:sbt-less:1.1.2 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		com.typesafe.sbt:sbt-coffeescript:1.0.2 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		com.typesafe.sbteclipse:sbteclipse-plugin:5.2.4 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		com.typesafe.play:sbt-plugin:2.8.1 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.12:1.1.2
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.12_1.0/1.1.2/sbt-less-1.1.2.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.sbt\sbt-less\scala_2.12\sbt_1.0\1.1.2\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-less\scala_2.12\sbt_1.0\1.1.2\ivys\ivy.xml (expected SHA-1 3ec7899d878a8d031b8980370155775c4af5a31a in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-less\scala_2.12\sbt_1.0\1.1.2\ivys\.ivy.xml__sha1, got 900db0ac2019b092bc2af21822f6104b10d66a74)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-less/scala_2.12/sbt_1.0/1.1.2/ivys/ivy.xml
+[error] Error downloading com.typesafe.sbt:sbt-coffeescript;sbtVersion=1.0;scalaVersion=2.12:1.0.2
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-coffeescript_2.12_1.0/1.0.2/sbt-coffeescript-1.0.2.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.sbt\sbt-coffeescript\scala_2.12\sbt_1.0\1.0.2\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-coffeescript\scala_2.12\sbt_1.0\1.0.2\ivys\ivy.xml (expected SHA-1 19d73d7df8934cca0455caec55cae6236b36b201 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-coffeescript\scala_2.12\sbt_1.0\1.0.2\ivys\.ivy.xml__sha1, got 8d7441138ae7ae452d26572705b61394e8fde88c)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.12/sbt_1.0/1.0.2/ivys/ivy.xml
+[error] Error downloading com.typesafe.sbteclipse:sbteclipse-plugin;sbtVersion=1.0;scalaVersion=2.12:5.2.4
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbteclipse/sbteclipse-plugin_2.12_1.0/5.2.4/sbteclipse-plugin-5.2.4.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.sbteclipse\sbteclipse-plugin\scala_2.12\sbt_1.0\5.2.4\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbteclipse\sbteclipse-plugin\scala_2.12\sbt_1.0\5.2.4\ivys\ivy.xml (expected SHA-1 75bc28305d2991e60410cefd72bc3d041744a05c in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbteclipse\sbteclipse-plugin\scala_2.12\sbt_1.0\5.2.4\ivys\.ivy.xml__sha1, got 7170dcfe3e96780ce0f942322e397c7240bb3622)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.12/sbt_1.0/5.2.4/ivys/ivy.xml
+[error] Error downloading com.typesafe.play:sbt-plugin;sbtVersion=1.0;scalaVersion=2.12:2.8.1
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/play/sbt-plugin_2.12_1.0/2.8.1/sbt-plugin-2.8.1.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.play\sbt-plugin\scala_2.12\sbt_1.0\2.8.1\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.play\sbt-plugin\scala_2.12\sbt_1.0\2.8.1\ivys\ivy.xml (expected SHA-1 803f78988c8af1466406ac5ac4d7c85871f9005c in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.play\sbt-plugin\scala_2.12\sbt_1.0\2.8.1\ivys\.ivy.xml__sha1, got 35775f54e5ac9cf26ea49fd360e4ecc9177a2656)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.12/sbt_1.0/2.8.1/ivys/ivy.xml
+[error] Error downloading org.scala-sbt:sbt:1.3.4
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.3.4\sbt-1.3.4.pom (expected SHA-1 a11605441a96ee5228db2f7c6db5ad258e7d14d6 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.3.4\.sbt-1.3.4.pom__sha1, got 72e17392484dfc7e8786e614cc203b340d339e2d)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-sbt\sbt\1.3.4\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
+[error] Error downloading org.scala-lang:scala-library:2.12.10
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.pom (expected SHA-1 368a4cdefd92e20800076e97e3b58e722a7f942a in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\.scala-library-2.12.10.pom__sha1, got c0f5237f49d4b4a955c368a646e7eebc8ca3fc84)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-lang\scala-library\2.12.10\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:245)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$34(CoursierDependencyResolution.scala:214)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:214)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2946)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+[error] 	at sbt.Execute.work(Execute.scala:290)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.sbt:sbt-less;sbtVersion=1.0;scalaVersion=2.12:1.1.2
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-less_2.12_1.0/1.1.2/sbt-less-1.1.2.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.sbt\sbt-less\scala_2.12\sbt_1.0\1.1.2\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-less\scala_2.12\sbt_1.0\1.1.2\ivys\ivy.xml (expected SHA-1 3ec7899d878a8d031b8980370155775c4af5a31a in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-less\scala_2.12\sbt_1.0\1.1.2\ivys\.ivy.xml__sha1, got 900db0ac2019b092bc2af21822f6104b10d66a74)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-less/scala_2.12/sbt_1.0/1.1.2/ivys/ivy.xml
+[error] Error downloading com.typesafe.sbt:sbt-coffeescript;sbtVersion=1.0;scalaVersion=2.12:1.0.2
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbt/sbt-coffeescript_2.12_1.0/1.0.2/sbt-coffeescript-1.0.2.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.sbt\sbt-coffeescript\scala_2.12\sbt_1.0\1.0.2\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-coffeescript\scala_2.12\sbt_1.0\1.0.2\ivys\ivy.xml (expected SHA-1 19d73d7df8934cca0455caec55cae6236b36b201 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbt\sbt-coffeescript\scala_2.12\sbt_1.0\1.0.2\ivys\.ivy.xml__sha1, got 8d7441138ae7ae452d26572705b61394e8fde88c)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.12/sbt_1.0/1.0.2/ivys/ivy.xml
+[error] Error downloading com.typesafe.sbteclipse:sbteclipse-plugin;sbtVersion=1.0;scalaVersion=2.12:5.2.4
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/sbteclipse/sbteclipse-plugin_2.12_1.0/5.2.4/sbteclipse-plugin-5.2.4.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.sbteclipse\sbteclipse-plugin\scala_2.12\sbt_1.0\5.2.4\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbteclipse\sbteclipse-plugin\scala_2.12\sbt_1.0\5.2.4\ivys\ivy.xml (expected SHA-1 75bc28305d2991e60410cefd72bc3d041744a05c in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.sbteclipse\sbteclipse-plugin\scala_2.12\sbt_1.0\5.2.4\ivys\.ivy.xml__sha1, got 7170dcfe3e96780ce0f942322e397c7240bb3622)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.12/sbt_1.0/5.2.4/ivys/ivy.xml
+[error] Error downloading com.typesafe.play:sbt-plugin;sbtVersion=1.0;scalaVersion=2.12:2.8.1
+[error]   Not found
+[error]   Not found
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/play/sbt-plugin_2.12_1.0/2.8.1/sbt-plugin-2.8.1.pom
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\com.typesafe.play\sbt-plugin\scala_2.12\sbt_1.0\2.8.1\ivys\ivy.xml
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.play\sbt-plugin\scala_2.12\sbt_1.0\2.8.1\ivys\ivy.xml (expected SHA-1 803f78988c8af1466406ac5ac4d7c85871f9005c in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo.scala-sbt.org\scalasbt\sbt-plugin-releases\com.typesafe.play\sbt-plugin\scala_2.12\sbt_1.0\2.8.1\ivys\.ivy.xml__sha1, got 35775f54e5ac9cf26ea49fd360e4ecc9177a2656)
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.12/sbt_1.0/2.8.1/ivys/ivy.xml
+[error] Error downloading org.scala-sbt:sbt:1.3.4
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.3.4\sbt-1.3.4.pom (expected SHA-1 a11605441a96ee5228db2f7c6db5ad258e7d14d6 in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.3.4\.sbt-1.3.4.pom__sha1, got 72e17392484dfc7e8786e614cc203b340d339e2d)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-sbt\sbt\1.3.4\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/1.3.4/ivys/ivy.xml
+[error] Error downloading org.scala-lang:scala-library:2.12.10
+[error]   Not found
+[error]   Not found
+[error]   wrong checksum: C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\scala-library-2.12.10.pom (expected SHA-1 368a4cdefd92e20800076e97e3b58e722a7f942a in C:\Users\wangyuxin\Documents\GitHub\ITSD-Group\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.10\.scala-library-2.12.10.pom__sha1, got c0f5237f49d4b4a955c368a646e7eebc8ca3fc84)
+[error]   not found: C:\Users\wangyuxin\.ivy2\local\org.scala-lang\scala-library\2.12.10\ivys\ivy.xml
+[error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
+[error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.12.10/ivys/ivy.xml
